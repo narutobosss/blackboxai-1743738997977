@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Games - 51Game6</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="bg-black py-4 px-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <h1 class="text-2xl font-bold text-red-500">51Game6</h1>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-red-400">Home</a>
+                    <a href="games.html" class="text-red-400">All Games</a>
+                    <a href="#" class="hover:text-red-400">Live Casino</a>
+                    <a href="#" class="hover:text-red-400">Promotions</a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="login.html" class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-md">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Games Listing -->
+    <section class="py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">All Games</h2>
+                <div class="relative">
+                    <input type="text" placeholder="Search games..." 
+                           class="bg-gray-800 border border-gray-700 rounded-full px-4 py-2 pl-10 focus:outline-none focus:ring-2 focus:ring-red-500">
+                    <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                </div>
+            </div>
+
+            <!-- Game Categories -->
+            <div class="flex space-x-2 mb-6 overflow-x-auto pb-2">
+                <button class="bg-red-600 px-4 py-2 rounded-full whitespace-nowrap">All</button>
+                <button class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-full whitespace-nowrap">Slots</button>
+                <button class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-full whitespace-nowrap">Table Games</button>
+                <button class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-full whitespace-nowrap">Live Casino</button>
+                <button class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-full whitespace-nowrap">Popular</button>
+            </div>
+
+            <!-- Games Grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                <!-- Game Card 1 -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden transition duration-300 hover:shadow-lg">
+                    <img src="https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg" 
+                         alt="Dragon's Treasure" 
+                         class="w-full h-40 object-cover">
+                    <div class="p-3">
+                        <h3 class="font-semibold">Dragon's Treasure</h3>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 text-sm">★ 4.8</span>
+                            <button class="bg-red-600 hover:bg-red-700 text-white text-xs px-2 py-1 rounded">Play</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game Card 2 -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden transition duration-300 hover:shadow-lg">
+                    <img src="https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg" 
+                         alt="Mystic Fortune" 
+                         class="w-full h-40 object-cover">
+                    <div class="p-3">
+                        <h3 class="font-semibold">Mystic Fortune</h3>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 text-sm">★ 4.5</span>
+                            <button class="bg-red-600 hover:bg-red-700 text-white text-xs px-2 py-1 rounded">Play</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game Card 3 -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden transition duration-300 hover:shadow-lg">
+                    <img src="https://images.pexels.com/photos/269948/pexels-photo-269948.jpeg" 
+                         alt="Blackjack Pro" 
+                         class="w-full h-40 object-cover">
+                    <div class="p-3">
+                        <h3 class="font-semibold">Blackjack Pro</h3>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 text-sm">★ 4.9</span>
+                            <button class="bg-red-600 hover:bg-red-700 text-white text-xs px-2 py-1 rounded">Play</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game Card 4 -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden transition duration-300 hover:shadow-lg">
+                    <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg" 
+                         alt="Roulette Royale" 
+                         class="w-full h-40 object-cover">
+                    <div class="p-3">
+                        <h3 class="font-semibold">Roulette Royale</h3>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 text-sm">★ 4.7</span>
+                            <button class="bg-red-600 hover:bg-red-700 text-white text-xs px-2 py-1 rounded">Play</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game Card 5 -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden transition duration-300 hover:shadow-lg">
+                    <img src="https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg" 
+                         alt="Poker Masters" 
+                         class="w-full h-40 object-cover">
+                    <div class="p-3">
+                        <h3 class="font-semibold">Poker Masters</h3>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 text-sm">★ 4.6</span>
+                            <button class="bg-red-600 hover:bg-red-700 text-white text-xs px-2 py-1 rounded">Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="flex justify-center mt-8">
+                <nav class="flex space-x-2">
+                    <a href="#" class="px-3 py-1 bg-gray-700 rounded">1</a>
+                    <a href="#" class="px-3 py-1 bg-gray-800 rounded">2</a>
+                    <a href="#" class="px-3 py-1 bg-gray-800 rounded">3</a>
+                    <a href="#" class="px-3 py-1 bg-gray-800 rounded">Next →</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">51Game6</h3>
+                    <p class="text-gray-400">The premier online gaming destination since 2020.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="games.html" class="text-gray-400 hover:text-white">All Games</a></li>
+                        <li><a href="login.html" class="text-gray-400 hover:text-white">Login</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400"><i class="fas fa-envelope mr-2"></i> support@51game6.com</li>
+                        <li class="text-gray-400"><i class="fas fa-phone mr-2"></i> +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
+                <p>© 2023 51Game6. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
